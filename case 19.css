@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #faf7f2;
+    color: #454052;
+    line-height: 1.6;
+}
+
+header {
+    background: #e5e9f2;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    color: #596b91;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: #454052;
+    text-decoration: none;
+    margin: 12px;
+}
+
+nav a:hover {
+    color: #9679a8;
+}
+
+.hero {
+    background: linear-gradient(#29263c66, #29263c66),
+    url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 15px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.button {
+    display: inline-block;
+    background: #9679a8;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #785d8b;
+}
+
+section {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #596b91;
+    margin-bottom: 22px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.card, .box, .price {
+    background: #ffffff;
+    padding: 18px;
+    border-radius: 12px;
+    flex: 1 1 220px;
+    box-shadow: 0 3px 12px #29263c12;
+}
+
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.card h3 {
+    color: #9679a8;
+    margin: 10px 0;
+}
+
+.camping {
+    background: #efedf5;
+}
+
+.price h2 {
+    color: #9679a8;
+}
+
+.featured {
+    background: #e8e2f0;
+    border: 2px solid #b5a2c6;
+}
+
+.schedule {
+    background: #f0e9e2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    padding: 13px;
+    border-bottom: 1px solid #e5dfe8;
+}
+
+th {
+    background: #596b91;
+    color: white;
+}
+
+.equipment {
+    background: #e9edf4;
+}
+
+.safety {
+    background: #f3e9ed;
+}
+
+.safety p {
+    margin: 10px;
+}
+
+footer {
+    background: #454052;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 30px 5%;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 9px 4px;
+    }
+}
+
